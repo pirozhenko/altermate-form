@@ -1,0 +1,33 @@
+
+#{text-inputs()} {
+	height: 50px;
+}
+
+
+label {
+	font-style: italic;
+	letter-spacing: 0.15em;
+}
+
+.label-checkbox,
+.label-radio {
+	text-transform: uppercase;
+	color: #000;
+	font-style: normal;
+}
+
+.label-checkbox {
+	font-size: rem-calc(10);
+}
+.label-radio {
+	font-size: rem-calc(12);
+}
+
+
+.button {
+	border: 1px solid #000;
+
+	&:hover {
+		color: #fff;
+	}
+}
